@@ -1,7 +1,7 @@
 <p align="center">
   <img src="https://raw.githubusercontent.com/iviv62/iviv62/main/banner.svg" alt="Ivelin - Software Developer" width="100%" />
 </p>
-<h1 align="center">Hi 👋, I'm Ivelin</h1>
+<h1 align="center">Hi 👋, I'm Ivelin <img src="https://img.shields.io/badge/Status-Open_to_Work-success?style=for-the-badge" alt="Open to Work" /></h1>
 <h3 align="center">Software Developer | Real-Time Systems & Collaborative Web Apps</h3>
 
 <p align="center">
