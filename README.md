@@ -69,3 +69,7 @@
   <a href="[https://linkedin.com/in/YOUR-LINKEDIN](https://www.linkedin.com/in/ivelin-ivanov-557425244/)"><img src="https://img.shields.io/badge/-LinkedIn-0e76a8?style=flat&logo=Linkedin&logoColor=white" alt="LinkedIn"></a>
   <a href="mailto:ivcho2213"gmail.com"><img src="https://img.shields.io/badge/-Email-D14836?style=flat&logo=Gmail&logoColor=white" alt="Email"></a>
 </p>
+
+<p align="center">
+  <img src="https://raw.githubusercontent.com/iviv62/iviv62/output/github-contribution-grid-snake-dark.svg" alt="Contribution Snake" width="100%" />
+</p>
