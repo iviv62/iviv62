@@ -64,11 +64,10 @@
   <img src="https://github-readme-stats.vercel.app/api/top-langs?username=iviv62&show_icons=true&locale=en&layout=compact&theme=radical&hide_border=true" alt="iviv62 languages" />
 </div>
 
-<!-- Add your social links here -->
-<p align="center">
-  <a href="[https://linkedin.com/in/YOUR-LINKEDIN](https://www.linkedin.com/in/ivelin-ivanov-557425244/)"><img src="https://img.shields.io/badge/-LinkedIn-0e76a8?style=flat&logo=Linkedin&logoColor=white" alt="LinkedIn"></a>
-  <a href="mailto:ivcho2213"gmail.com"><img src="https://img.shields.io/badge/-Email-D14836?style=flat&logo=Gmail&logoColor=white" alt="Email"></a>
-</p>
+### 📫 Let's Connect
+I'm always open to discussing software development, open-source collaboration, or new full-stack opportunities. 
+
+Drop me an email at **ivcho2213@gmail.com** or connect with me on **[LinkedIn](https://www.linkedin.com/in/ivelin-ivanov-557425244/)**.
 
 <p align="center">
   <img src="https://raw.githubusercontent.com/iviv62/iviv62/output/github-contribution-grid-snake-dark.svg" alt="Contribution Snake" width="100%" />
