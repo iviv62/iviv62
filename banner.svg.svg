@@ -1,0 +1,124 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 400" width="100%" height="100%">
+  <defs>
+    <!-- Pitch Black Space Gradient -->
+    <linearGradient id="spaceBg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#020205" />
+      <stop offset="40%" stop-color="#000000" />
+      <stop offset="100%" stop-color="#010206" />
+    </linearGradient>
+
+    <!-- Extreme Blur for Realistic Ethereal Gas Clouds -->
+    <filter id="heavyBlur" x="-50%" y="-50%" width="200%" height="200%">
+      <feGaussianBlur stdDeviation="120" result="blur" />
+    </filter>
+  </defs>
+
+  <style>
+    /* Typography */
+    .title {
+      font-family: system-ui, -apple-system, 'Segoe UI', Roboto, sans-serif;
+      font-size: 56px;
+      font-weight: 800;
+      fill: #ffffff;
+      letter-spacing: 8px;
+    }
+    .subtitle {
+      font-family: ui-monospace, 'Cascadia Code', 'Source Code Pro', Menlo, monospace;
+      font-size: 17px;
+      font-weight: 400;
+      fill: #94a3b8;
+      letter-spacing: 3px;
+    }
+    .accent-text { fill: #c084fc; font-weight: 600; }
+
+    /* Animations */
+    .nebula-1 { animation: drift1 25s ease-in-out infinite; transform-origin: center; }
+    .nebula-2 { animation: drift2 30s ease-in-out infinite; transform-origin: center; }
+    
+    .star-fast { animation: twinkle 2.5s infinite alternate ease-in-out; }
+    .star-slow { animation: twinkle 5s infinite alternate ease-in-out; }
+    .star-delay { animation: twinkle 4s infinite alternate ease-in-out; animation-delay: 2s; }
+    
+    .glass-panel { animation: float 8s ease-in-out infinite; transform-origin: center; }
+
+    /* Slower, subtler movements for realism */
+    @keyframes drift1 {
+      0%, 100% { transform: translate(0, 0) scale(1); }
+      50% { transform: translate(30px, -20px) scale(1.05); }
+    }
+    @keyframes drift2 {
+      0%, 100% { transform: translate(0, 0) scale(1); }
+      50% { transform: translate(-40px, 30px) scale(1.1); }
+    }
+    @keyframes twinkle {
+      0% { opacity: 0.05; transform: scale(0.8); }
+      100% { opacity: 0.9; transform: scale(1.2); }
+    }
+    @keyframes float {
+      0%, 100% { transform: translateY(0px); }
+      50% { transform: translateY(-8px); }
+    }
+  </style>
+
+  <!-- Pitch Black Base -->
+  <rect width="100%" height="100%" fill="url(#spaceBg)" />
+
+  <!-- Ethereal Gas Clouds (Much lower opacity, higher blur, darker colors) -->
+  <g filter="url(#heavyBlur)">
+    <!-- Deep Indigo Void -->
+    <circle cx="200" cy="100" r="350" fill="#1e1140" opacity="0.35" class="nebula-1" />
+    <!-- Dark Teal Expanse -->
+    <circle cx="950" cy="250" r="400" fill="#062536" opacity="0.25" class="nebula-2" />
+    <!-- Subtle Midnight Magenta Core -->
+    <circle cx="600" cy="200" r="250" fill="#300336" opacity="0.2" class="nebula-1" />
+  </g>
+
+  <!-- Distant Background Starfield (Static, tiny, dim) -->
+  <g fill="#ffffff" opacity="0.15">
+    <circle cx="80" cy="40" r="0.5" />
+    <circle cx="150" cy="280" r="0.8" />
+    <circle cx="300" cy="120" r="0.5" />
+    <circle cx="450" cy="350" r="1.0" />
+    <circle cx="580" cy="90" r="0.5" />
+    <circle cx="720" cy="210" r="0.8" />
+    <circle cx="890" cy="60" r="0.6" />
+    <circle cx="1020" cy="320" r="1.0" />
+    <circle cx="1150" cy="180" r="0.5" />
+    <circle cx="350" cy="380" r="0.5" />
+    <circle cx="650" cy="20" r="0.8" />
+    <circle cx="950" cy="150" r="0.5" />
+  </g>
+
+  <!-- Foreground Twinkling Stars (Sharper, varied sizes) -->
+  <g fill="#ffffff">
+    <circle cx="220" cy="180" r="1.2" class="star-fast" />
+    <circle cx="480" cy="80" r="1.5" class="star-slow" />
+    <circle cx="820" cy="280" r="1.0" class="star-delay" />
+    <circle cx="120" cy="340" r="1.5" class="star-fast" />
+    <circle cx="1080" cy="110" r="1.8" class="star-slow" />
+    <circle cx="680" cy="310" r="1.2" class="star-delay" />
+  </g>
+
+  <!-- Floating Glassmorphic Panel -->
+  <g class="glass-panel">
+    <!-- Card Background (Darker glass to match the realism) -->
+    <rect x="250" y="100" width="700" height="200" rx="16" fill="#ffffff" opacity="0.015" />
+    
+    <!-- Ultra-thin, subtle border highlight -->
+    <rect x="250" y="100" width="700" height="200" rx="16" fill="none" stroke="url(#glassBorder)" stroke-width="1" />
+    <defs>
+      <linearGradient id="glassBorder" x1="0%" y1="0%" x2="100%" y2="100%">
+        <stop offset="0%" stop-color="#ffffff" stop-opacity="0.15" />
+        <stop offset="40%" stop-color="#ffffff" stop-opacity="0.0" />
+        <stop offset="100%" stop-color="#ffffff" stop-opacity="0.03" />
+      </linearGradient>
+    </defs>
+
+    <!-- Content inside the Glass Panel -->
+    <text x="600" y="195" text-anchor="middle" class="title">IVELIN</text>
+    <text x="600" y="245" text-anchor="middle" class="subtitle">
+      <tspan fill="#475569">&lt;</tspan>Software Developer <tspan fill="#475569">/&gt;</tspan> 
+      Building <tspan class="accent-text">Nebula Chat</tspan>
+    </text>
+  </g>
+</svg>
