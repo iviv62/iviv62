@@ -57,6 +57,11 @@
 
 ---
 
+### 🌱 Currently Exploring
+*   **WebRTC Network Topologies:** Deep diving into Selective Forwarding Unit (SFU) architectures versus P2P Meshes to optimize bandwidth scaling and low-latency video routing.
+*   **Real-Time State:** Scaling authoritative server models and CRDTs for collaborative environments.
+*   **Languages:** Expanding my professional German business vocabulary.
+
 ### 🌍 Spoken Languages
 *   **English:** Fluent (Professional working proficiency)
 *   **German:** Professional working proficiency (Actively expanding technical/business vocabulary)
