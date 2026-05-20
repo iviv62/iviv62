@@ -57,12 +57,10 @@
 
 ---
 
-### 📊 GitHub Stats
-
-<div align="center">
-  <img src="https://github-readme-stats.vercel.app/api?username=iviv62&show_icons=true&locale=en&theme=radical&hide_border=true" alt="iviv62 stats" />
-  <img src="https://github-readme-stats.vercel.app/api/top-langs?username=iviv62&show_icons=true&locale=en&layout=compact&theme=radical&hide_border=true" alt="iviv62 languages" />
-</div>
+### 🌍 Spoken Languages
+*   **English:** Fluent (Professional working proficiency)
+*   **German:** Professional working proficiency (Actively expanding technical/business vocabulary)
+*   **Bulgarian:** Native
 
 ### 📫 Let's Connect
 I'm always open to discussing software development, open-source collaboration, or new full-stack opportunities. 
