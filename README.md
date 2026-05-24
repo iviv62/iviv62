@@ -60,7 +60,9 @@
 ### 🌱 Currently Exploring
 *   **WebRTC Network Topologies:** Deep diving into Selective Forwarding Unit (SFU) architectures versus P2P Meshes to optimize bandwidth scaling and low-latency video routing.
 *   **Real-Time State:** Scaling authoritative server models and CRDTs for collaborative environments.
+*   **HTML in Canvas:** Nest real, interactive DOM elements inside a canvas container and render them using 2D canvas, WebGL, or WebGPU contexts.
 *   **Languages:** Expanding my professional German business vocabulary.
+
 
 ### 🌍 Spoken Languages
 *   **English:** Fluent (Professional working proficiency)
@@ -72,6 +74,4 @@ I'm always open to discussing software development, open-source collaboration, o
 
 Drop me an email at **ivcho2213@gmail.com** or connect with me on **[LinkedIn](https://www.linkedin.com/in/ivelin-ivanov-557425244/)**.
 
-<p align="center">
-  <img src="https://raw.githubusercontent.com/iviv62/iviv62/output/github-contribution-grid-snake-dark.svg" alt="Contribution Snake" width="100%" />
-</p>
+
